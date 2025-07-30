@@ -1,7 +1,16 @@
 import http from 'http';
+import { readFileSync } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const hostname = '127.0.0.1';
-const port = 3000;
+
+const __filename = fileURLToPath(import.meta.url); // C:\Users\vikto\git-repos\HA-Project\Node_js\nodejs_intro\app.js *bezieht sich auf den direkten path*
+const __dirname = path.dirname(__filename);  // C:\Users\vikto\git-repos\HA-Project\Node_js\nodejs_intro  *Bezieht sich auf das verzeichnis*
+const configPath = path.join(__dirname, `config.json`);
+
+const config = JSON.parse(readFileSync(configPath, 'utf8'));
+const { port, hostname } = config;
+
 
 const server = http.createServer((req, res) => {
     console.log(`Anfrage erhalten: ${req.method} ${req.url}`);
