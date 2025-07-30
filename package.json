@@ -1,0 +1,22 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Node.js intro project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrykstolinski/nodejs_intro.git"
+  },
+ 
+  "author": "Viktor Stefan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitja72/nodejs_intro/issues"
+  },
+  "homepage": "https://github.com/Vitja72/nodejs_intro#readme"
+}
