@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Mein erster Blogbeitrag",
+    "content": "Das sind die Inhalte von meinem ERSTEN Blogbeitrag.",
+    "author": "Patryk A.",
+    "date": "25-07-29"
+  },
+  {
+    "id": 2,
+    "title": "Mein zweiter Blogbeitrag",
+    "content": "Das sind die Inhalte von meinem ZWEITEN Blogbeitrag.",
+    "author": "Patryk B.",
+    "date": "25-07-30"
+  },
+  {
+    "id": 3,
+    "title": "Mein dritter Blogbeitrag",
+    "content": "Das sind die Inhalte von meinem DRITTEN Blogbeitrag.",
+    "author": "Patryk C.",
+    "date": "25-07-31"
+  },
+  {
+    "title": "Mein SECHSTER Blogbeitrag",
+    "content": "Das sind die Inhalte von meinem SECHSTER Blogbeitrag. ",
+    "author": "Patryk F.",
+    "id": 4,
+    "date": "2025-07-31"
+  },
+  {
+    "title": "Mein Zwölfter Blogbeitrag",
+    "content": "Das sind die Inhalte von meinem SECHSTER Blogbeitrag. ",
+    "author": "Patryk K.",
+    "id": 5,
+    "date": "2025-07-31"
+  }
+]
